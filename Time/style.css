@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(21, 21, 21);
+}
+input{
+    opacity: 0; 
+}
+label{
+    padding: 10px 20px;
+    color: antiquewhite;
+    background-color: rgb(172, 0, 66);
+    border-radius: 25%;
+    cursor: pointer;
+    box-shadow:1px 1px 3px black;
+    font-size: x-large;
+}
+
+button:hover{
+    background-color: rgb(230, 165, 13);
+}
+
+h1 {
+    text-align: center;
+    font-size:10vh;
+    color:antiquewhite;
+}

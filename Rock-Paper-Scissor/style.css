@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+    font-family: monospace;
+}
+
+#title{
+    font-size:3.5em;
+    font-weight:bolder;
+    color:hsl(0, 0%, 10%);
+    text-shadow:-1px 1px hsl(328,100%,38%);
+}
+
+.rps-btns{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    font-size: 4em;
+    background-color:hsl(328, 100%, 38%);
+    margin: 10px;
+}
+
+.rps-btns:hover{
+    background-color:hsl(328,50%,30%);
+}
+
+.rps-btns:active{
+    background-color:hsl(328,50%,50%);
+}
+
+#player, #computer{
+    display:flex;
+    flex-direction: row;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#player p, #computer p{
+    margin: 0;
+}
+
+#result{
+    margin: 20px;
+    font-size:4em;
+    font-weight:bold;
+}
+
+#pScore, #cScore{
+    display:flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#pScore p, #cScore p{
+    margin:0
+}
+
+.greenText{
+    color: rgb(99, 199, 0);
+}
+
+.redText{
+    color: red;
+}

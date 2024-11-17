@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
+#calculator{
+    background-color: black;
+    max-width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#display{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 60, 60);
+    color: aliceblue;
+    padding: 25px;
+    font-size:3em;
+    text-align: left;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#calc{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 32, 32);
+    padding: 2em;
+    width: 100%;
+    
+}
+
+#calc div{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    background-color:rgb(70, 70, 70);
+    text-align: center;
+    font-size:30px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border:none;
+    border-radius:50%;
+    font-size: 3em;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(90, 90, 90);
+}
+
+button:active{
+    background-color: rgb(100, 100, 100);
+}
+
+#arithBtns button{
+    background-color: hsl(35, 100%, 50%);
+}
+
+#arithBtns button:hover{
+    background-color: hsl(35, 100%, 60%);
+}
+
+#arithBtns button:active{
+    background-color: hsl(35, 100%, 70%);
+}

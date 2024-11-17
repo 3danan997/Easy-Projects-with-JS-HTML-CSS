@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(135, 135, 135);
+    font-family: monospace;
+}
+
+#title{
+    font-size: 6em;
+    margin:5px;
+    color:aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+#stopwatch{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius:40px;
+    padding:5vh 5vh;
+    text-shadow: 2px 2px black;
+}
+
+p{
+    color:rgb(135, 135, 135);
+    text-align: center;
+    font-size:8em;
+    font-weight:bold;
+    margin: 0;
+}
+
+#btns{
+    text-align: center;
+}
+
+#startBtn, #stopBtn, #resetBtn{
+    padding:0.5em 2em;
+    border-radius:1em;
+    border-color: transparent;
+    color:aliceblue;
+    font-weight:bold;
+    font-size:1em;
+    text-shadow: -1px 1px 2px #000, 1px -1px 2px #000;
+}
+
+#startBtn{
+    background-color: rgb(100, 200, 0);
+    
+}
+
+#stopBtn{
+    background-color:rgb(200, 0, 0);
+}
+
+#resetBtn{
+    background-color:darkcyan;
+}
