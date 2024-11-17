@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(120deg,hsl(204, 100%, 90%),hsl(204, 100%, 80%)) ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height:100vh;
+}
+
+.title,.description{
+    color:hsl(204,100%,15%)
+}
+
+#cityName, #submitBtn{
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#submitBtn{
+    background-color:hsl(204,100%,15%);
+    color:hsl(204, 100%, 90%);
+}
+
+#submitBtn:hover{
+    background-color:hsl(204,100%,30%)
+}
+
+#submitBtn:active{
+    background-color:hsl(204,100%,20%)
+}
+
+.weatherCard{
+    text-align: center;
+    color: hsl(204,100%,90%);
+    margin: 30px 0px;
+    /* height: 500px; */
+    width: 350px;
+    background:radial-gradient(hsl(204,100%,35%),hsl(204,100%,15%));
+    border-radius:10px;
+    box-shadow: 5px 5px 10px rgb(49, 49, 49);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.weatherCard p{
+    margin:-30px 0px 30px 0px;
+    font-size: 10rem;
+}
